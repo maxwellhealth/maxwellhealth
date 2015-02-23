@@ -66,7 +66,11 @@ body {
   background-color: $shopping-background;
   padding-top: 10px;
 }
-
+.alert.alert-info.no-margin {
+  margin: 0px 8px 0px 0px;
+  border-radius: 0px;
+  background-color:  $shopping-soft-gray-blue;
+}
 .navbar-nav > li > a:hover, .navbar-nav > li > a.active {
   border-top: $maxwell-blue 1px solid;
   border-bottom: $maxwell-blue 1px solid;
