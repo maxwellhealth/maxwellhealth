@@ -1,6 +1,5 @@
 /** @jsx React.DOM */
 var React = require('react/addons');
-var _  = require('lodash');
 
 module.exports = React.createClass({
   getInitialState: function() {
@@ -16,7 +15,6 @@ module.exports = React.createClass({
     };
   },
   componentDidMount: function() {
-    var self = this;
   },
   hoverIn: function() {
     this.setState({'hover': true});
