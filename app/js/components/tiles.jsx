@@ -25,9 +25,11 @@ module.exports = React.createClass({
     var filteredRepos = this.state.repos;
     if (this.getParams().type && this.state.repos) {
       var self = this;
-      filteredRepos = _.filter(this.state.repos, _.matches({'language': self.getParams().type}) );
+      filteredRepos = _.filter(filteredRepos, _.matches({'language': self.getParams().type}) );
     }
-
+    filteredRepos = _.filter(filteredRepos, function(repo) {return !repo.fork;});
+    filteredRepos = _.sortBy(filteredRepos,'stargazers_count');
+    filteredRepos.reverse();
     return (
       <div className="tiles">
      { _.map(filteredRepos,function(project){
@@ -35,8 +37,9 @@ module.exports = React.createClass({
           name={project.name}
           description={project.description}
           link={project.html_url}
-          logo={"https://s3.amazonaws.com/maxwellv5-employers%2F/maxwell.logo-vert-blue.png"}
           tag={project.language}
+          logo={"https://s3.amazonaws.com/maxwellv5-employers%2F/maxwell.logo-vert-blue.png"}
+          stargazers={project.stargazers_count}
            />);
            })}
       </div>

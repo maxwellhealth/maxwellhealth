@@ -44,6 +44,11 @@ module.exports = React.createClass({
 
         <hr />
         {this.props.description}
+        <br />
+
+        <div className="row productTags">
+          <i className="fa fa-star"></i> {this.props.stargazers}
+        </div>
         <hr />
         <div className="row productTags">
           <div className="col-sm-6">

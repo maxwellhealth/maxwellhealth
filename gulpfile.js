@@ -25,10 +25,11 @@ gulp.task('sass',function() {
   gulp.src('app/sass/main.scss')
     .pipe(sass({ includePaths: [
       './app/sass',
+      './app/fonts',
       './bower_components/bootstrap-sass-official/assets/stylesheets'
     ],
      errLogToConsole: true,
-        sourceComments : 'normal'      
+        sourceComments : 'normal'
     }))
     .pipe(gulp.dest('build/css'))
     .on('error',function(err) {
