@@ -1,5 +1,5 @@
 ---
-category: projects
+category: blog
 ---
 <!doctype html>
 <html>
@@ -7,10 +7,10 @@ category: projects
         <meta charset="utf-8">
         <meta name="description" content="maxwellhealth github">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Maxwell Health | Github</title>
+        <title>Maxwell Health | Blog | Github</title>
         <link rel="author" href="humans.txt">
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="build/css/main.css">
+        <link rel="stylesheet" href="/build/css/main.css">
     </head>
     <body>
         <div class="container">
@@ -20,15 +20,17 @@ category: projects
           <div class="row">
             <h2>Browse MAXWELL HEALTH</h2>
             {% include sidebar.html %}
-            <div class="col-sm-8" id="products"></div>
+            <div class="col-sm-8" id="products">
+                  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+                  <p class="author">
+                    <p class="date">Posted on {{ page.date  | date_to_long_string }}</p>
+                    <p class="author">by {{ page.author }}</p>
+                  </p>
+                  <div class="content">
+                    {{ page.content |  markdownify}}
+                  </div>
+            </div>
           </div>
         </div>
-        {% for repository in site.github.public_repositories %}
-          * [{{ repository.name }}]({{ repository.html_url }})
-        {% endfor %}
-        <script>
-            // window.projects = {site.github.public_repositories | jsonify }
-        </script>
-        <script src="build/js/app.js"></script>
     </body>
 </html>
