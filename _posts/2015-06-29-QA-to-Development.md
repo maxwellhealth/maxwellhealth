@@ -2,7 +2,7 @@
 title: Big Learnings from our QA To Dev Transistion
 author: James Hrisho - Information Architect
 category: blog
-date: 2016-06-29 03:04:00 +/-0000
+date: 2015-06-29 03:04:00 +/-0000
 layout: post
 ---
 A critical challenge for engineering teams large and small is providing an environment where people can take on new roles and responsibilities. We recently faced this head on when a handful of people on our QA team expressed an interest in moving to full-time development roles. While that transition wasn’t perfect, we had key learnings that will make future movement through our team more fluid and transparent.
