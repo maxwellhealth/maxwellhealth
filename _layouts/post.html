@@ -7,12 +7,22 @@ category: blog
         <meta charset="utf-8">
         <meta name="description" content="maxwellhealth github">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Maxwell Health | Blog | Github</title>
+        <title>Maxwell Health | {{ page.title }}</title>
         <link rel="author" href="humans.txt">
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/build/css/main.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/sunburst.min.css">
+
     </head>
     <body>
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=207504326495";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
         <div class="container">
           <div class="row">
             {% include header.html %}
@@ -26,11 +36,31 @@ category: blog
                     <p class="date">Posted on {{ page.date  | date_to_long_string }}</p>
                     <p class="author">by {{ page.author }}</p>
                   </p>
+                  <div  class="row">
+                    <div class="col-sm-2">
+                      <div class="fb-share-button" data-href="{{page.url}}" data-layout="button_count"></div>
+                    </div>
+                    <div class="col-sm-2">
+                      <a href="https://twitter.com/share" class="twitter-share-button" data-via="maxwellhealth" data-count="none">Tweet</a>
+                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></script>
+                    </div>
+                  </div>
+                  </p>
                   <div class="content">
                     {{ page.content |  markdownify}}
+                  </div>
+                  <div  class="row">
+                    <div class="col-sm-2">
+                      <div class="fb-share-button" data-href="{{page.url}}" data-layout="button_count"></div>
+                    </div>
+                    <div class="col-sm-2">
+                      <a href="https://twitter.com/share" class="twitter-share-button" data-via="maxwellhealth" data-count="none">Tweet</a>
+                      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></script>
+                    </div>
                   </div>
             </div>
           </div>
         </div>
+        {% include footer.html %}
     </body>
 </html>
