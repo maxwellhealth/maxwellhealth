@@ -8192,3 +8192,19 @@ h2 {
   /* line 287, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
   .tile .tile:hover {
     background-color: #D3E8EC; }
+
+/* line 293, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
+.content img {
+  width: 100%;
+  border: 3px white solid;
+  margin: 10px 10px 10px 0px;
+  -webkit-box-shadow: 3px 3px 5px 1px #ddd;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 1px #ddd;
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 1px #ddd;
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+
+/* line 303, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
+.vert-image {
+  width: 42% !important; }
