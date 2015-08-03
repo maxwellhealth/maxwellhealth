@@ -1,5 +1,5 @@
 ---
-title: Key Tenants for a Successful Hack Day
+title: Key Tenets for a Successful Hack Day
 author: James Hrisho - Information Architect
 category: blog
 date: 2015-08-04 12:00:00 +/-0000
@@ -12,7 +12,7 @@ On July 23rd, our engineering team had our first ever Hack Day. This was a whole
 
 ### Preparing for the event
 
-We announced the Hack Day to the full team about a week before the event, giving those who didn't already have a project in the back of their head time to think about what they wanted to achieve. We then collected those ideas in a spreadsheet with a signup portion. People inspired by a project then joined that team and potentially could begin planning with their new team members. In addition to the spreadsheet, I put together a Github repository of APIs and SDKs from AWS, Github, Google Apps, JIRA and HipChat. We use these tools regularly and many of the project ideas included potential integrations. If you are planning a hack day for your team or a general hackathon, having these tools in a centralized place helps get a team moving right away. Lastly, we decided on some key tenants of the day:
+We announced the Hack Day to the full team about a week before the event, giving those who didn't already have a project in the back of their head time to think about what they wanted to achieve. We then collected those ideas in a spreadsheet with a signup portion. People inspired by a project then joined that team and potentially could begin planning with their new team members. In addition to the spreadsheet, I put together a Github repository of APIs and SDKs from AWS, Github, Google Apps, JIRA and HipChat. We use these tools regularly and many of the project ideas included potential integrations. If you are planning a hack day for your team or a general hackathon, having these tools in a centralized place helps get a team moving right away. Lastly, we decided on some key tenets of the day:
 
 1. Failure is perfectly fine. We are exploring new ideas and failure can be part of that.
 1. Your project might not make it to production.
@@ -22,13 +22,13 @@ We announced the Hack Day to the full team about a week before the event, giving
 1. This should go without saying -- but have fun!
 {: .callout }
 
-With our tenants set, our resources assembled and projects mostly planned, we were ready for our event.
+With our tenets set, our resources assembled and projects mostly planned, we were ready for our event.
 
 ###Day Of
 
 ![Breakfast](https://s3.amazonaws.com/engineering.maxwellhealth.com/IMG_7380.JPG)
 
-At 8:30AM, the team started to arrive at the office and breakfast was served. People were organizing their thoughts and mostly still waking up. At 9:00AM, we started pitches for each project. While some team members knew what they were going to work on, almost half the team was still up in the air. Each person with an idea was able to pitch to the team in hopes of recruiting members to their cause. Again, a tenant of the event was to not work alone, so it was important for people to put their best foot forward with their pitch. By the end of the pitch session the teams were formed and people got to work.
+At 8:30AM, the team started to arrive at the office and breakfast was served. People were organizing their thoughts and mostly still waking up. At 9:00AM, we started pitches for each project. While some team members knew what they were going to work on, almost half the team was still up in the air. Each person with an idea was able to pitch to the team in hopes of recruiting members to their cause. Again, a tenet of the event was to not work alone, so it was important for people to put their best foot forward with their pitch. By the end of the pitch session the teams were formed and people got to work.
 
 
 ![Tyler pitching his app](https://s3.amazonaws.com/engineering.maxwellhealth.com/IMG_7389.JPG){: .vert-image }
