@@ -8204,7 +8204,21 @@ h2 {
   /* Firefox 3.5 - 3.6 */
   box-shadow: 3px 3px 5px 1px #ddd;
   /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+/* line 301, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
+.content p {
+  font-size: 16px;
+  line-height: 1.5; }
+/* line 305, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
+.content .callout {
+  background-color: #DFF1FA;
+  padding: 20px 50px;
+  color: #63B9CF;
+  border-radius: 5px; }
+/* line 312, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
+.content li {
+  font-size: 16px;
+  line-height: 1.5; }
 
-/* line 303, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
+/* line 318, /Users/james/dev/maxwellhealth.github.io/app/sass/main.scss */
 .vert-image {
   width: 42% !important; }

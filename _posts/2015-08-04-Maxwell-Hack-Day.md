@@ -2,7 +2,7 @@
 title: Key Tenants for a Successful Hack Day
 author: James Hrisho - Information Architect
 category: blog
-date: 2015-08-04 00:00:00 +/-0000
+date: 2015-08-04 12:00:00 +/-0000
 layout: post
 ---
 ![Whole Team Meeting](https://s3.amazonaws.com/engineering.maxwellhealth.com/IMG_7427.JPG)
@@ -14,12 +14,13 @@ On July 23rd, our engineering team had our first ever Hack Day. This was a whole
 
 We announced the Hack Day to the full team about a week before the event, giving those who didn't already have a project in the back of their head time to think about what they wanted to achieve. We then collected those ideas in a spreadsheet with a signup portion. People inspired by a project then joined that team and potentially could begin planning with their new team members. In addition to the spreadsheet, I put together a Github repository of APIs and SDKs from AWS, Github, Google Apps, JIRA and HipChat. We use these tools regularly and many of the project ideas included potential integrations. If you are planning a hack day for your team or a general hackathon, having these tools in a centralized place helps get a team moving right away. Lastly, we decided on some key tenants of the day:
 
-* Failure is perfectly fine. We are exploring new ideas and failure can be part of that.
-* Your project might not make it to production.
-* Open source your project if it is possible.
-* Try to have something to demo by the end of the day.
-* Try to work with someone you don't normally work with and don't work alone.
-* This should go without saying -- but have fun!
+1. Failure is perfectly fine. We are exploring new ideas and failure can be part of that.
+1. Your project might not make it to production.
+1. Open source your project if it is possible.
+1. Try to have something to demo by the end of the day.
+1. Try to work with someone you don't normally work with and don't work alone.
+1. This should go without saying -- but have fun!
+{: .callout }
 
 With our tenants set, our resources assembled and projects mostly planned, we were ready for our event.
 
