@@ -18,7 +18,7 @@ I am currently studying Psychology and Computer Science at Harvard, with a focus
 
 One of the reasons I love this internship is that I get to wear a lot of hats, most of which I have absolutely no right to pick up in the first place. I shouldn’t even be in this hat store [apologies for the lame metaphor]. My mission for the summer is this overarching notion of “customer insights”, which means helping Maxwell quantify objectives as they relate to our customer base and then using data to test whether or not we are meeting those objectives. Step one consisted of meeting people all over the company to understand their data needs and synthesizing those needs into a conceptual “data dashboard” - what metrics one might see on a screen representing Maxwell’s daily pulse across several Key Performance Indicators. Next, I helped create (and in some cases began carrying out) frameworks for addressing those data needs, including web analytics, analyzing metrics from Titan, usability testing (we’ve already done more than 10 sessions!!), and surveying our HR Admins. I have also helped Inessa a bit with research and strategic planning for the next version of Titan.
 
-**What are you looking to do after school? **
+**What are you looking to do after school?**
 
 Something like this? I love solving important problems with ambiguous paths to success. I thrive at the center of human decision making and technology. I am fueled by the passion, energy, and good natures of the people around me. In essence, I want to use psychology and technology to tackle a big problem with a kickass team.
 
