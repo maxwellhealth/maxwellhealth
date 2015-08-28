@@ -6,15 +6,11 @@ date: 2015-08-28 12:00:00 +/-0000
 layout: post
 ---
 
-Software requirements is a communication problem. Any organization that builds or uses software, which is growing more common in today's world, must learn how to communicate what they actually want to build with those who can actually build it. This is where product management fits in within the product team; to help capture, organize, and 
-
-distill this information from multiple stakeholders into actionable requirements that can be understood and built by engineers.
+Software requirements are a communication problem. Any organization that builds or uses software, which is growing more common in today's world, must learn how to communicate what they actually want to build with those who can actually build it. This is where product management fits in within the product team; to help capture, organize, and distill this information from multiple stakeholders into actionable requirements that can be understood and built by engineers.
 
 It's important to note that this communication is not one-way. It doesn't always come from stakeholders down the chain to engineering. It is vital that neither side comes to the table looking to dominate the conversation. When the business side dominates, it mandates functionality and dates with little concern for whether developers can meet both objectives. When engineering dominates the communication, the technical jargon replaces the language of the business and the developers lose the opportunity to learn what is needed to bring value to their users.
 
-This is where user stories come in! They are the preferred way within [Agile](https://en.wikipedia.org/wiki/Agile_software_development) teams to communicate the required functionality of 
-
-software that should be built in order to create value for end users or customers. The way we write our stories at Maxwell Health is based on a format called [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin). This format consists of the title of a scenario and then explains that scenario by answering each question of:
+This is where user stories come in! They are the preferred way within [Agile](https://en.wikipedia.org/wiki/Agile_software_development) teams to communicate the required functionality of software that should be built in order to create value for end users or customers. The way we write our stories at Maxwell Health is based on a format called [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin). This format consists of the title of a scenario and then explains that scenario by answering each question of:
 
 - Given ...
 - When ...
