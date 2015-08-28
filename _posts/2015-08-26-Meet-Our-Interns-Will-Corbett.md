@@ -2,7 +2,7 @@
 title: Meet Our Interns - Will Corbett
 author: James Hrisho - Information Architect
 category: blog
-date: 2015-08-04 00:00:00 +/-0000
+date: 2015-08-26 00:00:00 +/-0000
 layout: post
 ---
 

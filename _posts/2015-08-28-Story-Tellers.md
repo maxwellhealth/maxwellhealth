@@ -20,13 +20,13 @@ software that should be built in order to create value for end users or customer
 - When ...
 - Then ...
 - And ...
-This allows you to write stories as you would normally explain 
 
-them, while giving context and autonomy to engineering teams so they can build them in the best way possible. Let's dive into an example!
+This allows you to write stories as you would normally explain them, while giving context and autonomy to engineering teams so they can build them in the best way possible. Let's dive into an example!
 
 Say we want to add a new demographic field for an employee using Maxwell Health that asks whether they are left or right-handed.   
 
 **Scenario:** New demographic field for an employee - Are they left or right-handed?
+
 
 **Given** I am an employee
 
@@ -39,6 +39,7 @@ Say we want to add a new demographic field for an employee using Maxwell Health 
 **And** it is not a required field by default
 
 **And** it can be made a required field by a Master HR Admin
+
 
 It is easy to interpret this requirement and understand what needs to be done. Engineering can take this, ask further questions if they need clarification or refinement, and then implement it in the best way possible. This is a very simplified example. We would normally expand on this and answer further things like what is the default value, how does this show up on reports, and possibly provide some testing instructions at the bottom.
 
