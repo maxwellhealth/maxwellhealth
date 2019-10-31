@@ -1,7 +1,0 @@
-paginate: 5
-paginate_path: "/blog/page:num"
-highlighter: pygments
-github: [Repository metadata]
-name: Maxwell Health Engineering Blog
-description: Maxwell Health's engineering blog
-url: http://engineering.maxwellhealth.com
