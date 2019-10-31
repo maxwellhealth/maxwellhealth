@@ -1,0 +1,35 @@
+{{ define "main" }}
+<main class="row center-xs start-md">
+  <section id="main" class="col-xs-12 col-md-8">
+    <div class="box">
+      <h1 id="title" class="h1-centered">{{ .Title }}</h1>
+      <div class="row">
+        <article id="content" class="col-xs-12">
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </section>
+  <aside id="meta" class="col-xs-12 col-md-4">
+    <div class="box">
+      <section >
+          <div class="row center-xs">
+            <img class="round-image" src="https://www.gravatar.com/avatar/{{ md5 .Params.author_email }}?s=100&d=identicon">
+          </div>
+      </section>
+      <section class="row center-xs">
+        <h4 id="date" class="card-title"><a href="{{ "author" | absURL}}/{{ .Params.author | urlize }}">{{ .Params.author }}</a> on {{.Date.Format "Jan 2 2006"}}</h4>
+      </section>
+      {{ with .Params.tags }}
+      <div class="row center-xs">
+        <div id="tags" class="">
+          {{ range . }}
+          <div class="pill" style="background-color: {{ index $.Site.Data.tags . }};"><a class="pill-text" href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . | title }}</a> </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </aside>
+</main>
+{{ end }}

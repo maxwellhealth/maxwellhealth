@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Maxwell Health"
+theme = "maxwell"
+[taxonomies]
+  author = "author"
+  tag = "tags"
+  category = "categories"
