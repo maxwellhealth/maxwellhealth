@@ -1,4 +1,4 @@
-baseURL = "http://engineering.maxwellhealth.com/"
+baseURL = "https://engineering.maxwellhealth.com/"
 languageCode = "en-us"
 title = "Maxwell Health"
 theme = "maxwell"
