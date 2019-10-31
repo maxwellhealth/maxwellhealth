@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>golang on Maxwell Health</title>
-    <link>http://example.org/tags/golang/</link>
+    <link>http://engineering.maxwellhealth.com/tags/golang/</link>
     <description>Recent content in golang on Maxwell Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2019 20:18:08 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://engineering.maxwellhealth.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Second</title>
-      <link>http://example.org/posts/my-second/</link>
+      <link>http://engineering.maxwellhealth.com/posts/my-second/</link>
       <pubDate>Mon, 21 Oct 2019 20:18:08 -0400</pubDate>
       
-      <guid>http://example.org/posts/my-second/</guid>
+      <guid>http://engineering.maxwellhealth.com/posts/my-second/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie a iaculis at erat pellentesque. Urna neque viverra justo nec ultrices dui sapien eget mi. Dapibus ultrices in iaculis nunc. Fringilla phasellus faucibus scelerisque eleifend. In dictum non consectetur a. Sagittis nisl rhoncus mattis rhoncus urna. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.</description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on Maxwell Health</title>
-    <link>http://example.org/author/</link>
+    <link>http://engineering.maxwellhealth.com/author/</link>
     <description>Recent content in Author on Maxwell Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Oct 2019 20:18:08 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/author/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://engineering.maxwellhealth.com/author/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://example.org/author/james-hrisho/</link>
+      <link>http://engineering.maxwellhealth.com/author/james-hrisho/</link>
       <pubDate>Wed, 30 Oct 2019 20:18:08 -0400</pubDate>
       
-      <guid>http://example.org/author/james-hrisho/</guid>
+      <guid>http://engineering.maxwellhealth.com/author/james-hrisho/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/author/frank-terragna/</link>
+      <link>http://engineering.maxwellhealth.com/author/frank-terragna/</link>
       <pubDate>Mon, 21 Oct 2019 20:18:08 -0400</pubDate>
       
-      <guid>http://example.org/author/frank-terragna/</guid>
+      <guid>http://engineering.maxwellhealth.com/author/frank-terragna/</guid>
       <description></description>
     </item>
     

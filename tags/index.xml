@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Maxwell Health</title>
-    <link>http://example.org/tags/</link>
+    <link>http://engineering.maxwellhealth.com/tags/</link>
     <description>Recent content in Tags on Maxwell Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Oct 2019 20:18:08 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://engineering.maxwellhealth.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>culture</title>
-      <link>http://example.org/tags/culture/</link>
+      <link>http://engineering.maxwellhealth.com/tags/culture/</link>
       <pubDate>Wed, 30 Oct 2019 20:18:08 -0400</pubDate>
       
-      <guid>http://example.org/tags/culture/</guid>
+      <guid>http://engineering.maxwellhealth.com/tags/culture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>talent</title>
-      <link>http://example.org/tags/talent/</link>
+      <link>http://engineering.maxwellhealth.com/tags/talent/</link>
       <pubDate>Wed, 30 Oct 2019 20:18:08 -0400</pubDate>
       
-      <guid>http://example.org/tags/talent/</guid>
+      <guid>http://engineering.maxwellhealth.com/tags/talent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>typescript</title>
-      <link>http://example.org/tags/typescript/</link>
+      <link>http://engineering.maxwellhealth.com/tags/typescript/</link>
       <pubDate>Wed, 30 Oct 2019 20:18:08 -0400</pubDate>
       
-      <guid>http://example.org/tags/typescript/</guid>
+      <guid>http://engineering.maxwellhealth.com/tags/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>http://example.org/tags/golang/</link>
+      <link>http://engineering.maxwellhealth.com/tags/golang/</link>
       <pubDate>Mon, 21 Oct 2019 20:18:08 -0400</pubDate>
       
-      <guid>http://example.org/tags/golang/</guid>
+      <guid>http://engineering.maxwellhealth.com/tags/golang/</guid>
       <description></description>
     </item>
     
