@@ -2,7 +2,7 @@
 <main>
     <ul class="">
     <!-- Ranges through content/posts/*.md -->
-    {{ range .Pages }}
+    {{ range  where .Paginator.Pages "Section" "ne" "" }}
         <li class="posts-box box ">
             <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
             <div>
