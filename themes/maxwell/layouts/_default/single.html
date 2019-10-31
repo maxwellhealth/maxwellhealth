@@ -1,15 +1,17 @@
 {{ define "main" }}
-<main>
-  <section id="main" class="box">
-    <h1 id="title">{{ .Title }}</h1>
-    <div>
-          <article id="content">
-             {{ .Content }}
-          </article>
+<main class="row center-xs start-md">
+  <section id="main" class="col-xs-12 col-md-8">
+    <div class="box">
+      <h1 id="title" class="h1-centered">{{ .Title }}</h1>
+      <div class="row">
+        <article id="content" class="col-xs-12">
+          {{ .Content }}
+        </article>
+      </div>
     </div>
   </section>
-  <aside id="meta" class="box">
-      <div>
+  <aside id="meta" class="col-xs-12 col-md-4">
+    <div class="box">
       <section>
         <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
         <h5 id="wordcount"> {{ .WordCount }} Words </h5>
@@ -17,26 +19,26 @@
       {{ with .Params.topics }}
       <ul id="topics">
         {{ range . }}
-          <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
+        <li><a href="{{ "topics" | absURL}}{{ . | urlize }}">{{ . }}</a> </li>
         {{ end }}
       </ul>
       {{ end }}
       {{ with .Params.tags }}
       <ul id="tags">
         {{ range . }}
-          <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
+        <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
         {{ end }}
       </ul>
       {{ end }}
-      </div>
-      <div>
-          {{ with .PrevInSection }}
-            <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-          {{ end }}
-          {{ with .NextInSection }}
-            <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
-          {{ end }}
-      </div>
+    </div>
+    <div>
+      {{ with .PrevInSection }}
+      <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+      {{ end }}
+      {{ with .NextInSection }}
+      <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+      {{ end }}
+    </div>
   </aside>
 </main>
 {{ end }}
