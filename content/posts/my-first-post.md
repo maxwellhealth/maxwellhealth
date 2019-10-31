@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2019-10-30T20:18:08-04:00
-draft: true
+draft: false
 author: "James Hrisho"
 author_email: james.hrisho@gmail.com
 tags: [typescript, talent, culture]

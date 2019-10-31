@@ -1,7 +1,7 @@
 ---
 title: "My Second"
 date: 2019-10-21T20:18:08-04:00
-draft: true
+draft: false
 author: Frank Terragna
 author_email: emma@maxwellhealth.com
 tags: [golang, talent]
