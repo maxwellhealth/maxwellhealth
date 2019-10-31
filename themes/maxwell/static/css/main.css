@@ -1,0 +1,142 @@
+body {
+  width: auto;
+  height: auto;
+  background-color: rgb(245, 246, 249);
+  font-family: "Brandon Text Regular", Arial, Helvetica, sans-serif;
+  color: rgb(71, 71, 71);
+  margin: 0px;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.box {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(238, 237, 241) 0px 2px 0px 0px;
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(238, 237, 241);
+  border-image: initial;
+}
+
+.posts-box {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-bottom: 2em;
+}
+
+
+footer, nav {
+  display: inherit;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(8, 60, 74);
+  line-height: 1.5;
+  height: 80px;
+}
+.footer-wrapper {
+  display: flex;
+  max-width: 1400px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+.grid {
+  width: 100%;
+  padding: 100px 16px 15px;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  flex: 0 1 auto;
+}
+
+.footer-col {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.footer-col + .footer-col {
+  margin-top: 10px;
+}
+.col {
+  box-sizing: border-box;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  max-width: 100%;
+  display: block;
+  flex: 0 1 100%;
+}
+
+.kxcsCl {
+  color: rgb(117, 129, 133);
+  font-size: 15px;
+  font-family: "Brandon Text Light", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+
+
+@media only screen and (min-width: 53.125em), not all {
+  .grid {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .row {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  .left-footer-col {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+  }
+
+  .footer-col {
+    margin-top: 0px !important;
+  }
+
+  .col {
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    display: block;
+    padding-left: 1.24rem;
+    padding-right: 1.24rem;
+  }
+  .right-footer-col {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+  }
+}
+@media only screen and (min-width: 30em), not all {
+  .grid {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .row {
+    margin-left: -0.565rem;
+    margin-right: -0.565rem;
+  }
+
+  .col {
+    padding-left: 0.565rem;
+    padding-right: 0.565rem;
+  }
+}
