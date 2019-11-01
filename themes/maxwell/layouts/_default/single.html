@@ -1,35 +1,33 @@
 {{ define "main" }}
-<main class="row center-xs start-md">
-  <section id="main" class="col-xs-12 col-md-8">
-    <div class="box">
+<main class="row center-xs">
+  <section id="main" class="col-xs-12">
+    <div class="box start-xs">
+        {{ with .Params.tags }}
+          <div id="tags" class="">
+            {{ range . }}
+            <div class="pill" style="background-color: {{ index $.Site.Data.tags . }};"><a class="pill-text" href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . | title }}</a> </div>
+            {{ end }}
+          </div>
+        {{ end }}
       <h1 id="title" class="h1-centered">{{ .Title }}</h1>
-      <div class="row">
+      <section class="row center-xs middle-xs card-title">
+          <div>
+            <img class="round-image" src="https://www.gravatar.com/avatar/{{ md5 .Params.author_email }}?s=30&d=identicon">
+          </div>
+          <div style="margin-left: 10px;">
+            <a class="link" href="{{ "author" | absURL}}/{{ .Params.author | urlize }}">{{ .Params.author }}</a> on {{.Date.Format "Jan 2 2006"}}
+          </div>
+      </section>
+
+      <div class="row start-xs">
         <article id="content" class="col-xs-12">
           {{ .Content }}
         </article>
+        <div class="col-xs-12">
+            <a class="ui-intro  navigation-link-blue" href="{{.Site.BaseURL}}"><svg class="icon-back-arrow" width="15px" height="12px" viewBox="0 0 15 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(0.000000, -10.000000)" fill="currentColor"><g id="Button-Normal"><polygon points="6 21.95 7.25373134 20.6962687 3.40298507 16.8455224 14.3283582 16.8455224 14.3283582 15.0544776 3.40298507 15.0544776 7.25373134 11.2037313 6 9.95 0 15.95"></polygon></g></g></g></svg> Back to Maxwell Health Blog</a>
+        </div>
       </div>
     </div>
   </section>
-  <aside id="meta" class="col-xs-12 col-md-4">
-    <div class="box">
-      <section >
-          <div class="row center-xs">
-            <img class="round-image" src="https://www.gravatar.com/avatar/{{ md5 .Params.author_email }}?s=100&d=identicon">
-          </div>
-      </section>
-      <section class="row center-xs">
-        <h4 id="date" class="card-title"><a href="{{ "author" | absURL}}/{{ .Params.author | urlize }}">{{ .Params.author }}</a> on {{.Date.Format "Jan 2 2006"}}</h4>
-      </section>
-      {{ with .Params.tags }}
-      <div class="row center-xs">
-        <div id="tags" class="">
-          {{ range . }}
-          <div class="pill" style="background-color: {{ index $.Site.Data.tags . }};"><a class="pill-text" href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . | title }}</a> </div>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </aside>
 </main>
 {{ end }}
