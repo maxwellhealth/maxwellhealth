@@ -10,6 +10,9 @@ body {
 main {
   padding: 1.5rem;
 }
+#main {
+  max-width: 800px;
+}
 :root {
   --white: #ffffff;
   --blackish: #282828;
@@ -115,6 +118,9 @@ main {
     url('/fonts/brandon-text/Brandon Text Black.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
+}
+.center {
+  text-align: center;
 }
 .horiz-blue {
   width: 249px;
@@ -378,6 +384,9 @@ h5 {
   letter-spacing: 0.4px;
   text-align: center;
   color: var(--max-bright-blue);
+}
+.article-author {
+  display: inline;
 }
 .link {
   font-weight: bold;
