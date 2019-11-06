@@ -580,7 +580,8 @@ body {
 }
 .pill {
   padding: 2px 3px;
-  height: 20px;
+  min-height: 20px;
+  margin-right: 20px;
   border-radius: 15px;
   text-align: center;
   background-color: var(--awesome-green);
@@ -590,7 +591,9 @@ body {
   display: inline-block;
 }
 #tags {
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 .box {
   position: relative;
@@ -720,4 +723,8 @@ nav {
     padding-left: 0.565rem;
     padding-right: 0.565rem;
   }
+}
+
+img[src*="#full-width"] {
+  width:100%;
 }

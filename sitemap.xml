@@ -3,63 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://engineering.maxwellhealth.com/author/james-hrisho/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
+    <loc>https://engineering.maxwellhealth.com/author/</loc>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://engineering.maxwellhealth.com/author/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
+    <loc>https://engineering.maxwellhealth.com/tags/continuous-delivery/</loc>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://engineering.maxwellhealth.com/posts/continuously-deliverying-at-maxwell-health/</loc>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://engineering.maxwellhealth.com/tags/culture/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://engineering.maxwellhealth.com/author/james-hrisho/</loc>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://engineering.maxwellhealth.com/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://engineering.maxwellhealth.com/posts/my-first-post/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://engineering.maxwellhealth.com/posts/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://engineering.maxwellhealth.com/tags/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://engineering.maxwellhealth.com/tags/talent/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://engineering.maxwellhealth.com/tags/typescript/</loc>
-    <lastmod>2019-10-30T20:18:08-04:00</lastmod>
+    <lastmod>2019-11-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://engineering.maxwellhealth.com/author/frank-terragna/</loc>
-    <lastmod>2019-10-21T20:18:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://engineering.maxwellhealth.com/tags/golang/</loc>
-    <lastmod>2019-10-21T20:18:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://engineering.maxwellhealth.com/posts/my-second/</loc>
-    <lastmod>2019-10-21T20:18:08-04:00</lastmod>
   </url>
   
   <url>
