@@ -3,6 +3,7 @@ body {
   height: auto;
   background-color: rgb(245, 246, 249);
   font-family: "Brandon Text Regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
   color: rgb(71, 71, 71);
   margin: 0px;
 }
@@ -556,7 +557,7 @@ label {
 }
 body {
   font-family: 'Brandon Text Regular';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
