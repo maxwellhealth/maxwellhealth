@@ -4,6 +4,7 @@ date: 2019-11-06T00:00:00-04:00
 draft: false
 author: "James Hrisho"
 author_email: james.hrisho@gmail.com
+description: "Maxwell Health's journey from releasing once a week to continuous delivery"
 tags: [continuous delivery, culture]
 ---
 

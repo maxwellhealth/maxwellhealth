@@ -12,7 +12,7 @@
       <h1 id="title" class="h1-centered">{{ .Title }}</h1>
       <section class="row center-xs middle-xs card-title">
           <div>
-            <img class="round-image" src="https://www.gravatar.com/avatar/{{ md5 .Params.author_email }}?s=30&d=identicon">
+            <img class="round-image" alt="author's avatar" src="https://www.gravatar.com/avatar/{{ md5 .Params.author_email }}?s=30&d=identicon">
           </div>
           <div style="margin-left: 10px;">
             <a class="link" href="{{ "author" | absURL}}/{{ .Params.author | urlize }}">{{ .Params.author }}</a> on {{.Date.Format "Jan 2 2006"}}
