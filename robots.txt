@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://engineering.maxwellhealth.com/sitemap.xml
