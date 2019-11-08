@@ -2,6 +2,7 @@ baseURL = "https://engineering.maxwellhealth.com/"
 languageCode = "en-us"
 title = "Maxwell Health"
 theme = "maxwell"
+enableRobotsTXT = true
 [params]
   description = "Maxwell Health Engineering Blog. We provide a modern benefits administration platform built on cutting edge technologies."
 [taxonomies]
