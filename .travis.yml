@@ -8,7 +8,7 @@ script:
   - hugo
 env:
   global:
-    # GITHUB_TOKEB
+    # GITHUB_TOKEN
     secure: "e3mOk7ebEZFIEU4knNtUgkLmzn/OGjJRGS7e8ny1eTnb/NpL7YXbUIu6sgHhj0ItxIwRU0Eo7I4PzW7M+YtVcCT7Qr6UjNn9HZCka+7QKI2zhhu4nxJ6zL8JdRvuUEfnPKt66Tm1zfCn4Ain8B6WQMP1tjadkfMUKWqvg997lfk="
 deploy:
   - provider: pages
