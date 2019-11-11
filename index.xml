@@ -6,10 +6,20 @@
     <description>Recent content on Maxwell Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2019 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://engineering.maxwellhealth.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evolving our Interview Process</title>
+      <link>https://engineering.maxwellhealth.com/posts/evolving-our-interview-process/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0400</pubDate>
+      
+      <guid>https://engineering.maxwellhealth.com/posts/evolving-our-interview-process/</guid>
+      <description>When I joined Maxwell Health in 2014, I was interviewed by our entire product team: a co-founder, our 2 engineers, and our designer. Even as our team grew to ~10 engineers, we all participated in every engineer interview. This was important to us because we had one scrum team, so we’d all be working directly with a new colleague.
+Eventually, our engineering team grew large enough that it became impossible to have everyone interview a candidate.</description>
+    </item>
     
     <item>
       <title>Continuously Delivering at Maxwell Health</title>

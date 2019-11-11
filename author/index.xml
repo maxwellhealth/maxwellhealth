@@ -6,10 +6,19 @@
     <description>Recent content in Author on Maxwell Health</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Nov 2019 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://engineering.maxwellhealth.com/author/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software Engineer &amp; Team Lead at Maxwell Health</title>
+      <link>https://engineering.maxwellhealth.com/author/emma-spencer/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 -0400</pubDate>
+      
+      <guid>https://engineering.maxwellhealth.com/author/emma-spencer/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Engineering Manager at Maxwell Health</title>
