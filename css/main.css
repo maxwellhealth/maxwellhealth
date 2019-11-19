@@ -120,6 +120,46 @@ main {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('/fonts/brandon-text/Lato-Regular.ttf');
+  src: url('/fonts/brandon-text/Lato-Regular.ttf') format('truetype'),
+    url('/fonts/brandon-text/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('/fonts/brandon-text/Lato-Light.ttf');
+  src: url('/fonts/brandon-text/Lato-Light.ttf') format('truetype'),
+    url('/fonts/brandon-text/Lato-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lato-header {
+  font-family: 'Lato Thin';
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+  color: var(--max-bright-blue);
+}
+.lato-header:active, .lato-header:focus, .lato-header:visited {
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  margin-top: -2px;
+  align-items: center;
+}
+.eng-logo {
+  display: flex;
+  margin-right: 15px;
+  margin-left: 5px;
+
+  align-items: center;
+}
 .center {
   text-align: center;
 }
