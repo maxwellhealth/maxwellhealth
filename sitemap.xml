@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://engineering.maxwellhealth.com/author/carl-bellitti/</loc>
+    <lastmod>2020-01-22T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://engineering.maxwellhealth.com/author/</loc>
-    <lastmod>2019-11-11T00:00:00-04:00</lastmod>
+    <lastmod>2020-01-22T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://engineering.maxwellhealth.com/</loc>
+    <lastmod>2020-01-22T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://engineering.maxwellhealth.com/tags/pair-programming/</loc>
+    <lastmod>2020-01-22T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://engineering.maxwellhealth.com/posts/pairing-with-your-peers/</loc>
+    <lastmod>2020-01-22T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://engineering.maxwellhealth.com/posts/</loc>
+    <lastmod>2020-01-22T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://engineering.maxwellhealth.com/tags/</loc>
+    <lastmod>2020-01-22T00:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -23,22 +53,7 @@
   </url>
   
   <url>
-    <loc>https://engineering.maxwellhealth.com/</loc>
-    <lastmod>2019-11-11T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://engineering.maxwellhealth.com/posts/</loc>
-    <lastmod>2019-11-11T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://engineering.maxwellhealth.com/author/emma-spencer/</loc>
-    <lastmod>2019-11-11T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://engineering.maxwellhealth.com/tags/</loc>
     <lastmod>2019-11-11T00:00:00-04:00</lastmod>
   </url>
   

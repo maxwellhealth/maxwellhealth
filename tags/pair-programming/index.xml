@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pair programming on Maxwell Health</title>
+    <link>https://engineering.maxwellhealth.com/tags/pair-programming/</link>
+    <description>Recent content in pair programming on Maxwell Health</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://engineering.maxwellhealth.com/tags/pair-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pairing With Your Peers</title>
+      <link>https://engineering.maxwellhealth.com/posts/pairing-with-your-peers/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 -0400</pubDate>
+      
+      <guid>https://engineering.maxwellhealth.com/posts/pairing-with-your-peers/</guid>
+      <description>Before I was hired by Maxwell Health back in May of 2018, I was in full job search mode but only for the second time as a developer. Many of my interviews with other companies focused solely on technical questions, or even worse, coding exercises on a whiteboard with little dialogue, which in my opinion is not the optimal way to measure a developer&amp;rsquo;s skill set.
+When I interviewed at Maxwell Health, there were technical questions of course, but the coding portion focused on a peer programming exercise.</description>
+    </item>
+    
+  </channel>
+</rss>
