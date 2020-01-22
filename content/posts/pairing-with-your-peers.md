@@ -1,6 +1,6 @@
 ---
 title: "Pairing With Your Peers"
-date: 2019-11-11T00:00:00-04:00
+date: 2020-01-22T00:00:00-04:00
 draft: false
 author: "Carl Bellitti"
 author_email: carl.bellitti@maxwellhealth.com
