@@ -15,6 +15,7 @@ When I interviewed at Maxwell Health, there were technical questions of course, 
 # The Benefits
 
 Peer programming is generally done in "pairs" but if the problem/task is overly complicated or urgent, there can be more than two developers involved (sometimes referred to as "mobbing"). There are many benefits of peer programming. These benefits have become obvious since I began and have been involved with development here at Maxwell Health. Based on my experience here at Maxwell in both the Developer and Team Lead roles, I’ve observed these benefits of peer programming.
+
 *   Better Code Quality / Finding errors quickly
 *   Improves Presentation and Communication Skills
 *   Knowledge Sharing / Work-Life Balance
