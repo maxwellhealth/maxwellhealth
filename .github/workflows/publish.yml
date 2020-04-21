@@ -18,7 +18,7 @@ jobs:
         uses: pr4k/Hugo-to-Medium@master
         id: hello
         env:
-          APP_ID: ${{secrets.APP_ID}}
-          ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
-          APP_SECRET: ${{secrets.APP_SECRET}}
-          BLOG_DIR: ${{secrets.BLOG_DIR}}
+          APP_ID: ${{secrets.APP_ID}} # https://medium.com/me/applications
+          ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}} # https://medium.com/me/settings
+          APP_SECRET: ${{secrets.APP_SECRET}} # https://medium.com/me/applications
+          BLOG_DIR: content/posts
